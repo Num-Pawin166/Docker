@@ -1,0 +1,2 @@
+source /home/developer/hello_world/build/bootloader/gdbinit/symbols
+source /home/developer/hello_world/build/bootloader/gdbinit/connect
