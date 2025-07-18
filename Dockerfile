@@ -42,5 +42,5 @@ USER $USERNAME
 RUN echo ". /opt/esp/idf/export.sh" >> /home/$USERNAME/.bashrc
 
 # การกำหนด Working Directory สำหรับโครงการพึงกระทำ
-# การตั้งค่า Work Directory จะกำหนดโฟลเดอร์เริ่มต้นที่ผู้ใช้จะทำงานเมื่อเข้าสู่ Container
+# การตั้งค่า Work Directory จะกำหนดโฟลเดอร์เริ่มต้นที่ผู้ใช้จะทำงานเมื่อเข้าสู่ Container 
 WORKDIR /home/$USERNAME/workspace
